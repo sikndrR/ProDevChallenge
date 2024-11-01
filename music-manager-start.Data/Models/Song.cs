@@ -13,5 +13,9 @@ namespace music_manager_starter.Data.Models
         public string Artist { get; set; }
         public string Album { get; set; }
         public string Genre { get; set; }
+
+        // New properties
+        public byte[]? Cover { get; set; } // For storing the image file path
+        public string? Release { get; set; }
     }
 }
